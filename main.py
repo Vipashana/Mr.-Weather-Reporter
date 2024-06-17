@@ -34,7 +34,6 @@ rate = engine.getProperty('rate')
 #Controls the speed of speaking
 engine.setProperty('rate', rate + 10)
 
-
 #Tells current temperature and feels like
 engine.say(f'Current temperature in {city} is {temp} celcius which feels like {feels} celcius')
 
