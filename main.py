@@ -13,7 +13,7 @@ city=input('Enter a city: ')
 #inserting API and city
 url=f'https://api.weatherapi.com/v1/current.json?key=48c10338fd5844b6b8854854241706&q={city}'
 
-#calling requests method on url
+#storing weather information in variable r
 r=requests.get(url)
 #print(r.text)
 
