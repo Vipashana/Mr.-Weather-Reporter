@@ -11,7 +11,7 @@ print('Welcome to Mr. Weather Reporter, developed by Vipashana Shahakar.')
 city=input('Enter a city: ')
 
 #inserting API and city
-url=f'https://api.weatherapi.com/v1/current.json?key=48c10338fd5844b6b8854854241706&q={city}'
+url=f'https://api.weatherapi.com/v1/current.json?key=9e207b9210ab458eb6293939240707&q={city}'
 
 #storing weather information in variable r
 r=requests.get(url)
